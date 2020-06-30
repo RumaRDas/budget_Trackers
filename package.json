@@ -4,9 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --watch",
     "prestart": "npm run webpack",
-    "seed": "node seeders/seed.js",
     "start": "node server.js",
     "lite-server": "lite-server"
   },
