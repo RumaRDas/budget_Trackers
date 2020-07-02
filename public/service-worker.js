@@ -1,9 +1,8 @@
 const FILES_TO_CACHE = [
     "/",
-    "/index.html",
-    "/style.css",
-    "/dist/app.bundle.js",
-    "/manifest.json",
+    "styles.css",
+    "dist/app.bundle.js",
+    "dist/manifest.json",
     "icons/icon-192x192.png"
   ];
   const PRECACHE = "precache-v1";
